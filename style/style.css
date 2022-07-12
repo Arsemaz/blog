@@ -8,7 +8,6 @@ h1 {
   font-stretch: wider;
 }
   
-  /* Styling the area of the slides */
   #slideshow {
   overflow: hidden;
   height: 350px;
@@ -18,33 +17,22 @@ h1 {
   padding: bottom 0;
   }
   
-  /* Style each of the sides
-  with a fixed width and height */
+
   .slide {
   float: left;
   height: 510px;
   width: 728px;
   }
   
-  /* Add animation to the slides */
   .slide-wrapper {
   
-  /* Calculate the total width on the
-  basis of number of slides */
   width: calc(728px * 4);
   
-  /* Specify the animation with the
-  duration and speed */
+ 
   animation: slide 10s ease infinite;
   }
   
-  
-  /* Define the animation
-  for the slideshow */
   @keyframes slide {
-  
-  /* Calculate the margin-left for
-  each of the slides */
   
   20% {
     margin-left: 0px;
