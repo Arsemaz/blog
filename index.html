@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang='en'>
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title style="font-size:medium">Arsema First Blog</title>
+
 <link rel="stylesheet" href="/css/bootstrapCSS/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
 
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-   <nav class="navbar navbar-dark" style="background-color: #2c2228;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Welcome To My Blog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/about/home.html">Student life</a>
-          </li>
-          
-          <li class="nav-item">
-
-            <a class="nav-link" href="http://127.0.0.1:5500/about/about.html">About Author </a>
-          </li>
-
-        </ul>
-        <span class="navbar-text">
-
-        </span>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome To My Blog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5500/custom/about.html">About Author</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://127.0.0.1:5500/custom/home.html">Student Life</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-  </nav>
-  <h2>
-    <div id="slideshow">
-      <div class="slide-wrapper">
-
-        <div class="slide">
-          <div class="slide-number">
-
-            <img src="/img/8.jpg" style="width:100%">
-          </div>
-        </div>
+  </div>
+</nav>
+  <div id="slideshow">
+  <div class="slide-wrapper">
+  <div class="slide">
+  <div class="slide-number">
+  <img src="/img/8.jpg" style="width:100%">
+   </div>
+   </div>
         <div class="slide">
           <div class="slide-number">
 
@@ -68,15 +78,12 @@
         </div>
       </div>
     </div>
-  </h2>
-
-<body style="align-content: flex-end;">
-
+<body>
   <div class="container">
     <div class="row">
-      <div class="col-9" style="font-size:xx-large; font-style:bold; text-align: center;"><b>My Purpose of Joining the
-          Course </b></div>
-      <div class="col-9">
+     <div class="col-9" >
+      <h2 style="font-size:xx-large; font-style:bold; text-align: center;"><b>My Purpose of Joining the
+          Course </h2></b>
         <p>Hello! My name is Arsema and i have started studing with the <a href="https://www.refactory.ug"> Refactory
           </a> at the
           biginnig of May.
@@ -92,7 +99,7 @@
           at the same time at work there could be any urgent things to do. So I have to priortise it.
           But it is always good to challenge your self, for the sake of your future.
           <br><br>
-          The classes were very good and enjoyable.<span id="dots">....</span><span id="more">
+          The classes were very good and enjoyable.
             Our teacher let us interact and ask quetions so that was
             helpful, they also provide all the necessary links or websites.
             The first course was about html, css, version control and git and so on.
@@ -102,10 +109,7 @@
             So the personal research and practice becomes handy because no matter how many times we learn
             it will not be useful unless we practice.
         </p>
-        </span>
-
-      
-      
+        
         <h2 style="font-size:xx-large; font-style:bold; text-align: center;"> Work and Study</h2>
         <p>s my first time studying while working, and it has been years since i finish school.
           So it has been difficult. But with the right attitude and strategy I am able to do it. <br>
@@ -127,7 +131,6 @@
             Gladly I was ok , but sometimes its good to know and plan the things you can do and you leave the things you
             can"t.
 
-          </span>
         </p>
         <h3 style="font-size:xx-large; font-style:bold; text-align: center;"> My Class Experience</h3>
         <p> The first course was for a month or so, and it included Introduction to Software, Introduction to
@@ -159,6 +162,13 @@
           supportive.
           I am glad I joined.
         </p>
+        <!-- <div class="col-4" style="border: 2px; text-align: end;">Featured Post<br>
+              <a href="http://127.0.0.1:5500/index.html"> My Purpose of Joining</a><br>
+              <a href="http://127.0.0.1:5500/custom/home.html"> How to Study While Working</a><br>
+              <a href="http://127.0.0.1:5500/index.html">My class Experience</a>
+            </div>
+          </div> -->
+        
         <br><br><br>
         <br>
         <br>
@@ -166,17 +176,11 @@
          <address>
             Written by: Arsema Zere<br>
             Contact: <a href="arsutsegai@gmil.com"> arsutsegai@gmil.com</a><br>
-            <a href="tel:+256773875187"></a>
+          
           </address>
         
 
         </div>
-      <div class="col-3" style="border: 2px; text-align: end;">Featured Post<br>
-        <a href="http://127.0.0.1:5500/index.html"> My Purpose of Joining</a><br>
-        <a href="http://127.0.0.1:5500/about/home.html"> How to Study While Working</a><br>
-        <a href="http://127.0.0.1:5500/index.html">My class Experience</a>
-      </div>
-    </div>
   </div>
   <script src="./css/bootstrapJS/bootstrap.bundle.min.js"></script>
 
